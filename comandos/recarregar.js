@@ -21,7 +21,7 @@ module.exports = {
       msg.channel.send(`O comando \`${comando.nome}\` foi recarregado!`);
     } catch (error) {
     	console.error(error);
-    	msg.channel.send(`erro ao recarregar o comando \`${comando.nome}\`!`);
+    	msg.channel.send(`Erro ao recarregar o comando \`${comando.nome}\`!`);
     }
 
 	},
