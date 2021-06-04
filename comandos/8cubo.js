@@ -4,7 +4,8 @@ module.exports = {
 	nome: '8cubo',
 	apelidos: ['8ball', 'responda'],
 	descricao: '8ball só que cubo (respostas de sim ou não)',
-	uso: '[pergunta]',
+	uso: '[pergunta de sim ou não]',
+	args: true,
 	async execute(msg, args) {
 
 		const respostas = [
